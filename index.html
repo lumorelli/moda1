@@ -1,0 +1,95 @@
+<!--ETIQUETA QUE DETERMINA ARCHIVO HTML5-->
+<!DOCTYPE html>
+<!--DETERMINAR IDIOMA-->
+<html lang="es">
+<!--DENTRO DE HEAD COLOQUÉ CARACTERES DE NUESTRO LENGUAJE, LOS LINKS A OTROS DOCUMENTOS (CSS Y JAVASCRIPT), Y ENLACE A LAS FUENTES QUE VOY A USAR-->	
+  <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos/diseno.css">
+	<title>ELVEN</title>
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  </head>
+
+   <body>
+     <section class="index" id="index">
+     </section>
+<!--MENU SUPERIOR-->	   
+    <nav>
+        <div id="menu">
+          <a href="index.html">
+			  <img class="indeximg" alt="Index" src="estilos/imagenes/logo.png"></a>
+				   <a href="#" class="indeximg" target="#"></a>
+	<!--lista sin ordenar -EL # ESTABLECE QUE AL CLIQUEAR EN EL LINK SE AUTOSCROLLEA AL SECTOR DEL INDEX QUE LE CORRESPONDA, MARCADO CON UN ID-->
+   		<ul>
+          <li><a href="#mujergral">ELLAS</a></li>
+   		  <li><a href="#hombregral">ELLOS</a></li>
+          <li><a href="coleccion.html">COLECCION</a></li>
+   		  <li><a href="talles.html">TALLES</a></li>
+          <li><a href="locales.html">LOCALES</a></li>
+   		  <li><a href="contacto.html">CONTACTO</a></li>
+          <li><a href="#comprashome">COMPRAS</a></li>
+		  <li><a href="login.html">LOGIN</a></li>		
+   		</ul>
+        </div>
+   </nav>		
+<!--ESTABLECÍ UNA SEPARACIÓN SUPERIOR PORQUE EL MENÚ QUE ES FIJO ME COMÍA EL CONTENIDO DE LA PÁGINA-->
+	   <div class="separaciontop"> 		   
+	   </div>
+<!--IMÁGEN QUE REDIRIGE A OTRA PÁGINA-->	   
+	  <section class="coleccion" id="coleccion">
+		  <a href="coleccion.html">
+			  <img class="coleccionimg" alt="coleccion" src="estilos/imagenes/coleccionimg.png" title="coleccion"/></a>
+	   </section>
+
+<!--VIDEO-->
+<iframe width="1400" height="700" src="https://www.youtube.com/embed/_a_QSOWqDMk?autoplay=1&mute=1&controls=0&showinfo=0&modestbranding=0&loop=1&playlist=_a_QSOWqDMk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!--IMÁGEN QUE REDIRIGE A OTRA PÁGINA - ESTABLEZCO UNA CLASE PARA LUEGO INVOCARLA EN EL ARCHIVO CSS - EL ID LINKEA ESTA SECCION CON EL LINK DEL MENU #mujergral, #hombregral, #etc-->
+    <section class="mujergral" id="mujergral">
+      <a href="mujeres.html"><img class="mujerimg" alt="mujeres" src="estilos/imagenes/mujeres.png" title="mujeres" /></a>
+    </section>
+
+    <section class="hombregral" id="hombregral">
+      <a href="hombres.html"><img class="hombreimg" src="estilos/imagenes/hombres.png" alt="hombres" title="hombres" /></a>
+    </section>
+
+    <section class="comprashome" id="comprashome">
+    <a href="compras.html"><img class="comprashomeimg" src="estilos/imagenes/compras.png" alt="compras" title="compras" /></a>
+   
+    <a href="compras.html"><img class="comprashomeimg" alt="compras"	src="estilos/imagenes/ronline.png" title="compras" /></a>
+    </section>
+	   
+<!-- FOOTER-->
+ <footer>
+<!-- SCROLLEA HASTA EL MENU -->	 
+      <section class="footer" id="footer">
+        <p><a href="#index">⇡ VOLVER</a></p>
+	   
+	   <div class= "footer-container">
+		<div>
+			<p><a class="btn" href="contacto.html">¿Tenés preguntas?</a></p>
+		</div>
+			<section>
+				<article>
+					<h1>Locales</h1>
+					<p><strong>Av. Scalabrini Ortiz 2500</strong> <br>Lu-Sab 10:00 a 20:00 hs <br>Telefono: 4777-4002</p>
+					<p><strong>Av. Cabildo y Av. Juramento</strong> <br>Lu-Sab 10:00 a 20:00 hs <br>Telefono: 4777-4002</p>
+					<p><strong>Av. Corrientes 1100</strong> <br>Lu-Sab 10:00 a 20:00 <br>Telefono: 4777-4002</p>
+					<p><strong>Av. Diaz Velez 5584</strong> <br>Lu-Sab 10:00 a 20:00 hs <br>Telefono: 4777-4002</p>
+				</article>
+			</section>
+	   </div>
+<!-- COPYRIGHT -->
+		  		<p>
+					<small class="block">&copy; 2018 . Todos los derechos reservados.</small> 
+					<small class="block">Diseño web por <a href="" target="_blank">Lucía Morelli</a></small>
+				</p>
+			
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		</div>
+
+   </section>
+
+ </footer>
+</body>
+</html>
